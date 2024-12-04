@@ -1,11 +1,15 @@
-
+"use client";
 import React from 'react';
+import { Poppins } from 'next/font/google';
+
+const fontPoppins400 = Poppins({ weight: '400', subsets: ['latin'] });
+const fontPoppins600 = Poppins({ weight: '600', subsets: ['latin'] });
 const Header = () => {
     return (
         <div>
-            <header className="w-1440 h-48 ">
-                <h3 className="text-center bg-black text-white p-2 w-550">Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
-                    <span className="underline mx-3">ShopNow</span>
+            <header className=" ">
+                <h3 className={`${fontPoppins400.className} text-center bg-black text-white p-2 w-550`}>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+                    <span className={`${fontPoppins600.className} underline mx-3`}>ShopNow</span>
                     <span className="ml-[150px]">English 
                         <svg width="21" height="10" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg " className='ml-[1180px] '>
                         <g filter="url(#filter0_d_17807_19)">

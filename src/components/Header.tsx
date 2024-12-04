@@ -1,24 +1,5 @@
-// import React from 'react'
 
-// const Header = () => {
-//   return (
-//     <div>
-//         <header className='w-1440 h-48 '>
-//             <h3 className='bg-black text-white text-center p-2 w-550'>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! 
-//                 <span className='m-5 underline'>ShopNow
-//                     </span>
-//                     <p className='float-right mr-5'>English</p>
-//                     </h3>
-//                     </header>
-
-//     </div>
-//   )
-// }
-
-// export default Header;
 import React from 'react';
-
-
 const Header = () => {
     return (
         <div>

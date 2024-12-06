@@ -135,21 +135,21 @@ const CartPage = () => {
 
         {/* Cart Total Section */}
         <div className="border border-gray-300 rounded p-4">
-          <h2 className="text-lg font-semibold mb-4">Cart Total</h2>
+          <h2 className={`${fontPoppins.className} text-lg font-semibold mb-4`}>Cart Total</h2>
           <div className="flex justify-between mb-2">
-            <span>Subtotal:</span>
+            <span className={fontPoppins.className}>Subtotal:</span>
             <span>${subtotal}</span>
           </div>
           <div className="flex justify-between mb-2">
-            <span>Shipping:</span>
-            <span>Free</span>
+            <span className={fontPoppins.className}>Shipping:</span>
+            <span className={fontPoppins.className}>Free</span>
           </div>
           <hr className="my-2" />
           <div className="flex justify-between text-lg font-semibold">
-            <span>Total:</span>
+            <span className={fontPoppins.className}>Total:</span>
             <span>${subtotal}</span>
           </div>
-          <button className="bg-[#DB4444] text-white w-full px-4 py-2 rounded mt-4 ">
+          <button className={`${fontPoppins.className} bg-[#DB4444] text-white w-full px-4 py-2 rounded mt-4 `}>
             Proceed To Checkout
           </button>
         </div>

@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="sticky top-0 z-50 border-b-[0.5px]">
+    <div className=" top-0 z-50 border-b-[0.5px]">
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
         <h1
           className={`${fontInter.className} text-black w-118 h-24 pl-[10rem] pt-9 text-[24px]`}

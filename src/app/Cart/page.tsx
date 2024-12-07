@@ -24,7 +24,7 @@ const CartPage = () => {
     quantities.product2 * prices.product2;
 
   return (
-    <div className="container mx-auto max-w-screen-xl px-4 py-8">
+    <div className="container mx-auto max-w-screen-xl px-4 py-8 lg:pt-[12rem] sm:pt-[25rem]">
       {/* Breadcrumb */}
       <div className="text-gray-500 text-sm mb-4">
         Home / <span className="text-black">Cart</span>

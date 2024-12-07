@@ -60,7 +60,7 @@ export default function Navbar() {
                 Home
               </Link>
       
-          <Link href="/" className="text-lg text-black">
+          <Link href="/Contact" className="text-lg text-black">
                 Contact
               </Link>
           

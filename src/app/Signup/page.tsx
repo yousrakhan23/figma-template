@@ -3,6 +3,8 @@ import { FaGoogle } from "react-icons/fa";
 import Image from "next/image";
 import Head from "next/head";
 import SideImage from "../../public/SideImage.png";
+import Link from "next/link";
+
 export default function Signup() {
   return (
     <div className="min-h-screen flex items-center justify-center">
@@ -19,7 +21,7 @@ export default function Signup() {
 
         <div className="w-full lg:w-1/2 p-4 sm:p-6 lg:p-8 ">
           <Head>
-            <title>Sign Up</title>
+            <title>Signup</title>
           </Head>
           <h1 className="text-2xl font-bold text-center text-black mb-4">
             Create an account
@@ -74,12 +76,13 @@ export default function Signup() {
             </button>
           </div>
 
-          <p className="text-center text-sm text-black mt-4">
+          {/* <p className="text-center text-sm text-black mt-4">
             Already have account?{" "}
             <a href="/login" className="text-black">
               Log in
             </a>
-          </p>
+          </p> */}
+          <p className="text-zinc-600 m-auto w-fit mt-8">Already have an account? <Link href="/LoginPage" className="border-b-2 border-zinc-400 font-medium text-zinc-500 pb-[0.2rem]">Log in</Link></p>
         </div>
       </div>
     </div>

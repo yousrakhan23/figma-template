@@ -2,8 +2,13 @@
 
 import React from "react";
 import Navbar from "@/components/Navbar";
-import Signup from "@/app/Signup/page";
-import LoginPage from "@/app/LoginPage/page";
+import BestSellingProducts from "@/components/bestSellingProducts/BestSellingProducts";
+import BrowseByCategory from "@/components/browseByCategory/BrowseByCategory";
+import ExploreProducts from "@/components/exploreProducts/ExploreProducts";
+import FlashSales from "@/components/flashSales/FlashSales";
+import Hero_section from "@/components/heroSection/Hero_section";
+import NewArrivals from "@/components/newArrivals/NewArrivals";
+import SpeakerBanner from "@/components/speakerBanner/SpeakerBanner";
 import Wishlist from "./WishlistPage/page";
 import Cart from "@/app/Cart/page";
 import Checkout from "./Checkout/page";
@@ -13,8 +18,16 @@ const HomePage = () => {
   return (
     <div>
       <Navbar />
-      <Signup />
-      <LoginPage />
+      <Hero_section />
+   <FlashSales />
+   <BrowseByCategory />
+   <BestSellingProducts />
+   <SpeakerBanner />
+   <ExploreProducts />
+   <NewArrivals />
+
+      
+      
       <Wishlist />
       <Cart />
       <Checkout />

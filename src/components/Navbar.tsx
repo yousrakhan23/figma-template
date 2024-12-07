@@ -1,4 +1,6 @@
 "use client";
+import React from "react";
+
 import Image from "next/image";
 import Link from "next/link";
 import logo from "@/public/Logo.png";
@@ -53,10 +55,22 @@ export default function Navbar() {
         />
 
         <div className="hidden lg:flex justify-center items-center gap-10">
-          <p className="text-lg"> Home</p>
-          <p className="text-lg"> Contact</p>
-          <p className="text-lg"> About</p>
-          <p className="text-lg"> SignUp</p>
+          
+          <Link href="/" className=" text-lg text-black">
+                Home
+              </Link>
+      
+          <Link href="/" className="text-lg text-black">
+                Contact
+              </Link>
+          
+          <Link href="/AboutPage" className="text-lg text-black">
+                About
+              </Link>
+          
+          <Link href="/Signup" className="text-lg text-black">
+                Signup
+              </Link>
         </div>
 
         <div className="flex justify-center items-center gap-8 ">
@@ -168,10 +182,10 @@ export default function Navbar() {
               <Link href="/" className="font-semibold text-3xl mb-8 text-white">
                 About
               </Link>
-              <Link href="/" className="font-semibold text-3xl mb-8 text-white">
+              <Link href="/Signup" className="font-semibold text-3xl mb-8 text-white">
                 Signup
               </Link>
-              <Link href="/" className="font-semibold text-3xl mb-8 text-white">
+              <Link href="/WishlistPage" className="font-semibold text-3xl mb-8 text-white">
                 Wish List
               </Link>
               <Link href="/" className="font-semibold text-3xl mb-8 text-white">

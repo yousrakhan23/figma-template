@@ -7,6 +7,7 @@ import LoginPage from "@/app/LoginPage/page";
 import Wishlist from "./WishlistPage/page";
 import Cart from "@/app/Cart/page";
 import Checkout from "./Checkout/page";
+import Footer from "@/components/Footer";
 
 const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
       <Wishlist />
       <Cart />
       <Checkout />
+      <Footer />
     </div>
   );
 };
